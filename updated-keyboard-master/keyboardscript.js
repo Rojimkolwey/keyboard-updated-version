@@ -84,6 +84,6 @@ const addResult = (index) => {
   let newSearchStr = strArr.join(" ");
   newSearchStr = newSearchStr + " " + resultsSubArr[index];
 
-  searchInput.value = newSearchStr.trim();
+  searchInput.value = newSearchStr.trim() + " ";
   searchInput.focus();
 };

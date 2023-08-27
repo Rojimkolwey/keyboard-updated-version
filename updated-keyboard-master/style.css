@@ -61,21 +61,21 @@ div {
 
 .search-results {
   opacity: 0;
-  display: flex;
   gap: 7px;
   align-items: center;
   justify-content: space-evenly;
   padding: 0 10px;
   border-radius: 10px;
-  font-weight: bold;
-  flex-wrap: wrap;
+  font-weight: 500;
 }
 .show.search-results {
   opacity: 1;
   width: 80vw;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .word-result {
-  font-size: 25px;
+  font-size: 35px;
   cursor: pointer;
 }
